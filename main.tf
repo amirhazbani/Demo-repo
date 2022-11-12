@@ -42,10 +42,10 @@ resource "aws_s3_bucket" "amirbucketqa" {
 resource "aws_s3_bucket_public_access_block" "amirbucketqa" {
   bucket = aws_s3_bucket.amirbucketqa.id
 
-  block_public_acls       = true
-  block_public_policy     = true
-  ignore_public_acls      = true
-  restrict_public_buckets = true
+  block_public_acls       = fales
+  block_public_policy     = fales
+  ignore_public_acls      = fales
+  restrict_public_buckets = fales
 }
 
 #Provides an S3 bucket (server access) logging resource.
