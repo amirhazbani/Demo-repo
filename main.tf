@@ -1,7 +1,8 @@
 #Refrance https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_logging
 #terrafom init - Create the terrafrom files from the mian.tg
 #terrafom plan - validate the configuration
-#terrafom apply - apply the config on aws
+#terrafom apply - apply the config on aws1
+
 
 
 
